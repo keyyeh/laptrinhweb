@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách user</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .nav-bar, .footer {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            border: 1px solid #000;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #000;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        .pagination {
+            margin: 10px 0;
+        }
+        .pagination a {
+            margin: 0 5px;
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="#">Home</a> | <a href="#">Đăng xuất</a>
+    </div>
+
+    <h2>Danh sách user</h2>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Thao tác</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>UPVH</td>
+            <td>ATJW@gmail.com</td>
+            <td><a href="#">Edit</a> | <a href="#">View</a> | <a href="#">Delete</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>IFUK</td>
+            <td>KULB@gmail.com</td>
+            <td><a href="#">Edit</a> | <a href="#">View</a> | <a href="#">Delete</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>DZZQ</td>
+            <td>ERNB@gmail.com</td>
+            <td><a href="#">Edit</a> | <a href="#">View</a> | <a href="#">Delete</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>NJYY</td>
+            <td>ROIF@gmail.com</td>
+            <td><a href="#">Edit</a> | <a href="#">View</a> | <a href="#">Delete</a></td>
+        </tr>
+    </table>
+
+    <div class="pagination">
+        <a href="#">Previous</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">Next</a>
+    </div>
+
+    <div class="footer">
+        Lập trình web @2024
+    </div>
+</body>
+</html>
